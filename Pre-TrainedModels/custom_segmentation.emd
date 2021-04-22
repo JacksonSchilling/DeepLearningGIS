@@ -1,0 +1,25 @@
+{
+    "Framework":"Keras",
+    "ModelType":"ImageClassification",
+    "ModelFile":"model_std.h5",
+    "InferenceFunction":"TemplateBaseClassifier.py", 
+    "ModelConfiguration":"DeepLab",
+    "ExtractBands":[0,1,2,3],
+    "DataRange":[0.0,1.0],
+    "ImageHeight":32,
+    "ImageWidth":32,
+    "ModelPadding":0,
+
+    "Classes": [
+        {
+            "Value":0,
+            "Name":"Impervious",
+            "Color":[0, 51, 0]
+         },
+         {
+            "Value":1,
+            "Name":"Nonimpervious",
+            "Color":[241, 185, 137]
+         }
+    ]
+}
